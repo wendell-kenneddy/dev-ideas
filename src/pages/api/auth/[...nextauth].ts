@@ -1,7 +1,6 @@
 import NextAuth from 'next-auth';
 import GithubProvider from 'next-auth/providers/github';
 import DiscordProvider from 'next-auth/providers/discord';
-import SpotifyProvider from 'next-auth/providers/spotify';
 
 import { query as q } from 'faunadb';
 import { fauna } from '../../../services/fauna';
@@ -16,10 +15,6 @@ export default NextAuth({
     DiscordProvider({
       clientId: process.env.DISCORD_CLIENT_ID,
       clientSecret: process.env.DISCORD_CLIENT_SECRET
-    }),
-    SpotifyProvider({
-      clientId: process.env.SPOTIFY_CLIENT_ID as string,
-      clientSecret: process.env.SPOTIFY_CLIENT_SECRET as string
     })
   ],
   callbacks: {
