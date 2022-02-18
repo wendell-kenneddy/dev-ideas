@@ -74,14 +74,20 @@ export default function Dashboard() {
         <meta property="og:title" content="Devideas | Dashboard" />
         <meta property="og:site_name" content="Devideas | Dashboard" />
         <meta property="og:description" content="See your activity." />
-        {/* <meta property="og:url" content="" /> */}
+        <meta
+          property="og:url"
+          content="https://dev-ideas.vercel.app/dashboard"
+        />
         <meta property="og:locale" content="en-US" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:title" content="Devideas | Dashboard" />
         <meta property="twitter:description" content="See your activity." />
-        {/* <meta property="twitter:url" content="" /> */}
+        <meta
+          property="twitter:url"
+          content="https://dev-ideas.vercel.app/dashboard"
+        />
         <title>Devideas | Dashboard</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link rel="canonical" href="https://dev-ideas.vercel.app/dashboard" />
       </Head>
 
       <main className="w-full max-w-[720px] mx-auto px-4">
