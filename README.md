@@ -6,7 +6,7 @@
 ![PRs](https://img.shields.io/badge/PRs-Welcome-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![CI](https://github.com/wendell-kenneddy/dev-ideas/actions/workflows/integrate.yml/badge.svg)](https://github.com/wendell-kenneddy/dev-ideas/actions/workflows/integrate.yml)
+[![CI](https://github.com/wendell-kenneddy/dev-ideas/actions/workflows/ci.yml/badge.svg)](https://github.com/wendell-kenneddy/dev-ideas/actions/workflows/ci.yml)
 
 ![Final Result](./.github/preview.png)
 
