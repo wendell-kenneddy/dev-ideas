@@ -116,14 +116,17 @@ export default function CreateIdea() {
         <meta property="og:title" content="Devideas | Create Idea" />
         <meta property="og:site_name" content="Devideas | Create Idea" />
         <meta property="og:description" content="Create a new idea." />
-        {/* <meta property="og:url" content="" /> */}
+        <meta property="og:url" content="https://dev-ideas.vercel.app/ideas" />
         <meta property="og:locale" content="en-US" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:title" content="Devideas | Create Idea" />
         <meta property="twitter:description" content="Create a new idea." />
-        {/* <meta property="twitter:url" content="" /> */}
+        <meta
+          property="twitter:url"
+          content="https://dev-ideas.vercel.app/ideas"
+        />
         <title>Devideas | Create Idea</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link rel="canonical" href="https://dev-ideas.vercel.app/ideas" />
       </Head>
 
       <main className="w-full max-w-[720px] mx-auto px-4 mb-4">

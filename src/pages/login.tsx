@@ -22,7 +22,7 @@ export default function Login() {
           property="og:description"
           content="Sign in into the application."
         />
-        {/* <meta property="og:url" content="" /> */}
+        <meta property="og:url" content="https://dev-ideas.vercel.app/login" />
         <meta property="og:locale" content="en-US" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:title" content="Devideas | Sign In" />
@@ -30,9 +30,12 @@ export default function Login() {
           property="twitter:description"
           content="Sign in into the application."
         />
-        {/* <meta property="twitter:url" content="" /> */}
+        <meta
+          property="twitter:url"
+          content="https://dev-ideas.vercel.app/login"
+        />
         <title>Devideas | Sign In</title>
-        {/* <link rel="canonical" href="" /> */}
+        <link rel="canonical" href="https://dev-ideas.vercel.app/login" />
       </Head>
 
       <main

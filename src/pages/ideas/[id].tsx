@@ -156,14 +156,11 @@ export default function EditIdea({ idea }: EditIdeaProps) {
         <meta property="og:title" content="Devideas | Edit Idea" />
         <meta property="og:site_name" content="Devideas | Edit Idea" />
         <meta property="og:description" content="Edit an idea." />
-        {/* <meta property="og:url" content="" /> */}
         <meta property="og:locale" content="en-US" />
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:title" content="Devideas | Edit Idea" />
         <meta property="twitter:description" content="Edit an idea." />
-        {/* <meta property="twitter:url" content="" /> */}
         <title>Devideas | Edit Idea</title>
-        {/* <link rel="canonical" href="" /> */}
       </Head>
 
       <main className="w-full max-w-[720px] mx-auto px-4">
