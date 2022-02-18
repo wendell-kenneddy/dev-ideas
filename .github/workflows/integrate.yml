@@ -2,7 +2,7 @@ name: Test Pull Request
 
 on:
   pull_request:
-    branches: [staging]
+    branches: [main]
 
 jobs:
   test_pull_request:
